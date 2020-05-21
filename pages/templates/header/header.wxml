@@ -1,0 +1,11 @@
+
+<template name="header">
+  <view class="header-group"> 
+    <view class="logo-group">
+      <image class="logo" src='/images/worktable/719.jpg'></image>
+    </view>
+    <view class="text-group">
+      <text class="title">海洋核动力平台研究室</text>
+   </view>
+  </view>
+</template>

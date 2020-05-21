@@ -1,0 +1,61 @@
+<!--pages/mine/mine.wxml-->
+<!-- <import src="/pages/templates/header/header.wxml"/>
+<template is="header"></template> -->
+  <!-- 普通用户的显示界面 -->
+<block wx:if="{{userType == 'common'}}">
+  <view class="gate-group">
+    <view wx:if="{{wxUserInfo.avatarUrl}}" class="avatar-group">
+       <image class="avatar" src="{{wxUserInfo.avatarUrl}}"></image>
+       <!-- <view class='name'>{{myUserInfo.username}}</view> -->
+    </view>
+    <view class="name"><text>{{wxUserInfo.nickName}}</text></view>
+    <view class="login-main">
+        <text>普通用户</text>
+    </view>
+  </view>
+  <view class="list-group">
+      <view class="list-item" bindtap="onPerapplyClick">
+        <view class="sign"><image src="/images/mine/perapply.png"></image></view>
+        <view class="stext"><text>员工权限申请</text></view>
+      </view>
+      <view class="list-item">
+        <view class="sign"><image src="/images/mine/share.png"></image></view>
+        <view class="stext"><text>分享推荐</text></view>
+      </view>
+      <view class="list-item">
+        <view class="sign"><image src="/images/mine/config.png"></image></view>
+        <view class="stext"><text>系统设置</text></view>
+      </view>
+  </view>
+</block>
+  <!-- 游客用户 -->
+<block wx:elif="{{userType == 'guest'}}">
+  <view class="gate-group">
+    <view class="avatar-group">
+      <image class="avatar" src="/images/mine/defaultAvatar.png"></image>
+    </view>
+    <view class="login-main">
+      <view class="button-login">
+        <button open-type="getUserInfo" lang="zh_CH" bindgetuserinfo="onGotUserInfo">登录/授权</button>
+      </view>  
+    </view>
+  </view>
+</block>
+<!-- 其他用户，员工用户和管理用户 -->
+<block wx:else>
+  <view class="gate-group">
+    <view wx:if="{{wxUserInfo.avatarUrl}}" class="avatar-group">
+      <image class="avatar" src="{{myUserInfo.avatarUrl}}"></image>
+       <!-- <view class='name'>{{myUserInfo.username}}</view> -->
+    </view>
+    <view class="name"><text>{{staffUserInfo.name}}</text></view>
+    <view class="login-main">
+      <view class="job-num"><text>工号：{{staffUserInfo.job_num}}</text></view>
+      <view class="separator"><text>|</text></view>
+      <view class="branch"><text>部门：{{staffUserInfo.branch}}</text></view>
+    </view>
+  </view>
+</block>
+
+
+

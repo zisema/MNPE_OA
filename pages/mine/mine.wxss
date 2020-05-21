@@ -1,0 +1,93 @@
+/* pages/mine/mine.wxss */
+/* @import "/pages/templates/header/header.wxss"; */
+
+/* page{
+  background-color: #ededed; 
+} */
+.gate-group{
+  background-color: #5574b5;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 450rpx;
+  /* box-sizing: border-box; */
+}
+.gate-group .avatar-group{
+  background-color: #ffffff;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
+
+.avatar-group .avatar{
+  width:100%;
+  height:100%;
+  border-radius: 50%;
+}
+
+.gate-group .name{
+  color: #ffffff;
+  font-size: 30rpx;
+  font-size: 50rpx;
+}
+
+.gate-group .login-main{
+  display: flex;
+  justify-content: space-evenly; 
+  flex-direction: row;
+  color: #ffffff;
+}
+
+.login-main .job-num{
+  width:300rpx;
+  display: flex;
+  justify-content: flex-end;
+}
+.login-main .separator{
+  width:50rpx;
+  display: flex;
+  justify-content: center;
+}
+.login-main .branch{
+  width: 300rpx;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.list-group{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.list-group .list-item{
+  height: 50rpx;
+  display:flex;
+  border-bottom: 1px solid #e4e4e4;
+  padding: 20rpx 20rpx;
+}
+.list-item .sign{
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 20rpx;
+}
+.sign image{
+  width:100%;
+  height:100%;
+}
+.list-item .stext{
+  height: 50rpx;
+  margin-left: 20rpx;
+}
+
+/* .avatar-group .name{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  color: #ffffff;
+} */
+
+
+
+

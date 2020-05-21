@@ -1,0 +1,2 @@
+/* pages/notice/notice.wxss */
+@import "/pages/templates/header/header.wxss";

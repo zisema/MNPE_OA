@@ -1,0 +1,23 @@
+@import "/pages/templates/header/header.wxss";
+.main-menu-group{
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 30rpx;
+}
+.main-menu-group .menu-group{
+  width: 160rpx;
+  height: 166rpx;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40rpx;
+}
+.menu-group image{
+  width:110rpx;
+  height:110rpx;
+}
+.menu-group text{
+  font-size: 30rpx;
+}

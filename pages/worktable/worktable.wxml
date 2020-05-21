@@ -1,0 +1,29 @@
+<!--pages/worktable/worktable.wxml-->
+<import src="/pages/templates/header/header.wxml"/>
+<template is="header"></template>
+<view class="main-menu-group">
+  <view class="menu-group" bindtap="onPubinfoClick">
+    <image src="/images/worktable/01pubinfo.png"></image>
+    <text>信息发布</text>
+  </view>
+  <view class="menu-group" bindtap="onResultInfoClick">
+    <image src="/images/worktable/02resultinfo.png"></image>
+    <text>统计结果</text>
+  </view> 
+  <view class="menu-group" bindtap="onTaskmanagerClick">
+    <image src="/images/worktable/03taskmanager.png"></image>
+    <text>任务管理</text>
+  </view>
+  <view class="menu-group" bindtap="onSigninmanagerClick">
+    <image src="/images/worktable/04signinmanager.png"></image>
+    <text>考勤管理</text>
+  </view>
+  <view class="menu-group" bindtap="onDevicemanagerClick">
+    <image src="/images/worktable/05devicemanager.png"></image>
+    <text>设备管理</text>
+  </view>
+  <view class="menu-group" bindtap="onUsermanageClick">
+    <image src="/images/worktable/06usermanage.png"></image>
+    <text>用户管理</text>
+  </view>      
+</view>

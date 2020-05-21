@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/mine/mine",
+    "pages/worktable/worktable",
+    "pages/notice/notice",
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/mine/perapply/perapply"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#5574b5",
+    "navigationBarTitleText": "平台室",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#939393",
+    "selectedColor": "#6579cd",
+    "backgroundColor": "#f8f8f8",
+    "list": [
+      {
+        "pagePath": "pages/notice/notice",
+        "text": "通知",
+        "iconPath": "images/tabbar/tabbar1_notice.png",
+        "selectedIconPath": "images/tabbar/tabbar1_notice_selected.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabbar/tabbar2_index.png",
+        "selectedIconPath": "images/tabbar/tabbar2_index_selected.png"
+      },
+      {
+        "pagePath": "pages/worktable/worktable",
+        "text": "工作台",
+        "iconPath": "images/tabbar/tabbar3_worktable.png",
+        "selectedIconPath": "images/tabbar/tabbar3_worktable_selected.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/tabbar/tabbar4_mine.png",
+        "selectedIconPath": "images/tabbar/tabbar4_mine_selected.png"
+      }
+    ]
+  },
+  "cloud": true,
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

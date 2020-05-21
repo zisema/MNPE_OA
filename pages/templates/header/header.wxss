@@ -1,0 +1,24 @@
+.header-group{
+  width: 100%;
+  height: 100rpx;
+  border-bottom: 1px solid #e4e4e4;
+  padding: 10rpx 10rpx 10rpx 10rpx; 
+  background-color: #ffffff;
+}
+
+.header-group .logo-group{
+  float: left;
+  width: 150rpx;
+  height: 100%;
+}
+.logo-group .logo{
+  width: 100%;
+  height: 100%;
+}
+
+.header-group .text-group{
+  font-size: 50rpx;
+  padding-top: 15rpx;
+  padding-left: 190rpx;
+  /* border:1px solid #e4e4e4; */
+}

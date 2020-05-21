@@ -1,0 +1,45 @@
+<!--index.wxml-->
+<import src="/pages/templates/header/header.wxml"/>
+<template is="header"></template>
+<view class="main-menu-group">
+  <view class="menu-group" bindtap="onSurvey">
+    <image src="/images/index/01survey.png"></image>
+    <text>参与统计</text>
+  </view>
+  <view class="menu-group" bindtap="onForumClick">
+    <image src="/images/index/02forum.png"></image>
+    <text>技术交流</text>
+  </view>
+  <view class="menu-group" bindtap="onTempClick">
+    <image src="/images/index/03temp.png"></image>
+    <text>体温登记</text>
+  </view>
+  <view class="menu-group" bindtap="onOrderfoodClick">
+    <image src="/images/index/04orderfood.png"></image>
+    <text>订餐</text>
+  </view> 
+  <view class="menu-group" bindtap="onPersonInfoClick">
+    <image src="/images/index/05personinfo.png"></image>
+    <text>人员信息</text>
+  </view>  
+  <view class="menu-group" bindtap="onAuditClick">
+    <image src="/images/index/06audit.png"></image>
+    <text>审批</text>
+  </view>
+  <view class="menu-group" bindtap="onSigninClick">
+    <image src="/images/index/07signin.png"></image>
+    <text>签到</text>
+  </view>
+  <view class="menu-group" bindtap="onLeaveClick">
+    <image src="/images/index/08leave.png"></image>
+    <text>请假</text>
+  </view>
+  <view class="menu-group" bindtap="onOnlinemeetClick">
+    <image src="/images/index/09onlinemeet.png"></image>
+    <text>线上会议</text>
+  </view>
+  <view class="menu-group" bindtap="onDutyscheduleClick">
+    <image src="/images/index/10dutyschedule.png"></image>
+    <text>值班表</text>
+  </view>   
+</view>

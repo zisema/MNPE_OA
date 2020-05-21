@@ -1,0 +1,3 @@
+<!--pages/notice/notice.wxml-->
+<import src="/pages/templates/header/header.wxml"/>
+<template is="header"></template>
